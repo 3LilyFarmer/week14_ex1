@@ -18,6 +18,10 @@ form, button{
     justify-content: center;
 }
 
+.lighterBackground{
+    background-color: beige;
+}
+
 @media screen and (min-width:600px) {
     #form-wrapper{
         display:flex;
