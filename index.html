@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>DOM manipulation example</title>
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -13,20 +14,26 @@
         <button>Change Background Color</button>
     </header>
 
-    <section>
-        <label>First Name:</label>
-        <input id="firstname" type="text">
-        <label>Last Name:</label>
-        <input id="lastname" type="text">
-        <label>Program Name:</label>
-        <input id="progName" type="text">
-        <button>Submit</button>
-    </section>
+    <form>
+        <div id="form-wrapper">
+            <label>First Name:</label>
+            <input id="firstname" type="text">
+            <label>Last Name:</label>
+            <input id="lastname" type="text">
+            <label>Program Name:</label>
+            <input id="progName" type="text">
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+    </form>
 
     <section>
         <h2>Enrolled students</h2>
-        <ul>Sudents Enrolled in CIT</ul>
-        <ul>Sudents Enrolled in CST</ul>
+        <div id="list-wrapper">
+            <ul>Sudents Enrolled in CIT</ul>
+            <ul>Sudents Enrolled in CST</ul>
+        </div>
     </section>
 
 </body>

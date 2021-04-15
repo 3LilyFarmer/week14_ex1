@@ -1,3 +1,31 @@
 body {
     background-color: tan;
 }
+
+form, button{
+    margin: 0.5em;
+}
+
+#form-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* center the button in the page */
+#button-wrapper{
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width:600px) {
+    #form-wrapper{
+        display:flex;
+        justify-content:space-between;
+    }
+
+    #list-wrapper{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
